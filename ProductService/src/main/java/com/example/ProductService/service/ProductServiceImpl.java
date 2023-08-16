@@ -6,7 +6,6 @@ import com.example.ProductService.model.ProductRequest;
 import com.example.ProductService.model.ProductResponse;
 import com.example.ProductService.repository.ProductRepository;
 import lombok.extern.log4j.Log4j2;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
