@@ -54,3 +54,11 @@ management:
     enabled: true
     sampling:
       probability: 1.0
+
+okta:
+  oauth2:
+    issuer: https://dev-12704311.okta.com/oauth2/default
+    audience: api://default
+    client-id: 0oaawgbofyGj2hnNG5d7
+    client-secret: P8NxRQxbfoRz0BgHJBpgmmOG-Rkad6LkSR1nESwh3QMeTFje1AN4FoScsWMFMSar
+    scopes: openid, email, profile, offline_access
