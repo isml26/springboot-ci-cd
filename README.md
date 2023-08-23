@@ -8,5 +8,5 @@
 - Implementing [API Gateway](https://spring.io/projects/spring-cloud-gateway)
 - Implementing Distributed Log Tracing using [Zipkin](https://zipkin.io/)
 - Implementing [Circuit Breaker](https://resilience4j.readme.io/docs/circuitbreaker) in API
-- Implementing Rate Limiter in API Gateway using [Resilience4j]((https://resilience4j.readme.io/docs/ratelimiter)) and Redis
+- Implementing Rate Limiter in API Gateway using [Resilience 4j]((https://resilience4j.readme.io/docs/ratelimiter)) and Redis
 - Implementing Spring Security With [Okta](https://developer.okta.com/blog/2020/08/14/spring-gateway-patterns)

@@ -1,0 +1,31 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:9296
+  datasource:
+    url: jdbc:h2:mem:order
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-12704311.okta.com/oauth2/default
+      client:
+        registration:
+          internal-client:
+            provider: okta
+            authorization-grant-type: client_credentials
+            scope: internal
+            client-id: 0oaawgbofyGj2hnNG5d7
+            client-secret: P8NxRQxbfoRz0BgHJBpgmmOG-Rkad6LkSR1nESwh3QMeTFje1AN4FoScsWMFMSar
+        provider:
+          okta:
+            issuer-uri: https://dev-12704311.okta.com/oauth2/default
+
+
+eureka:
+  client:
+    enabled: false
