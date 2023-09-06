@@ -10,3 +10,8 @@
 - Implementing [Circuit Breaker](https://resilience4j.readme.io/docs/circuitbreaker) in API
 - Implementing Rate Limiter in API Gateway using [Resilience 4j]((https://resilience4j.readme.io/docs/ratelimiter)) and Redis
 - Implementing Spring Security With [Okta](https://developer.okta.com/blog/2020/08/14/spring-gateway-patterns)
+
+<hr>
+
+## Application Architecture
+![_Microservices with Spring Boot, Spring Cloud, Docker, K8s](https://github.com/isml26/springboot-example/assets/62605922/7da7ac55-6352-42e8-a3e7-ebca5db5776d)
