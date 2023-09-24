@@ -30,6 +30,7 @@
 3. We should define environment variables instead of using localhost:
     ```shell
     docker run -d -p 9296:9296 -e EUREKA_SERVER_ADDRESS=http://host.docker.internal:8761/eureka --name configserver 102e2067e7fd
+
 * ![images](https://github.com/isml26/springboot-example/assets/62605922/4ebe7434-fd83-4147-a655-d68d195c80ce)
 * ![containers](https://github.com/isml26/springboot-example/assets/62605922/b8ec6192-8202-467d-9ca8-3f8c3ccd8dda)
 * ![logs](https://github.com/isml26/springboot-example/assets/62605922/3c74d65b-6415-48cc-992a-0d0f9e34aee8)
