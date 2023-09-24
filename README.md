@@ -27,6 +27,7 @@
    docker build -t ismail26/configserver:0.0.1 . 
    
 ![docker](https://github.com/isml26/springboot-example/assets/62605922/a3174f07-23cd-40b4-a4ac-0c2b7bae1c7c)
+
 3. We should define environment variables instead of using localhost:
     ```shell
     docker run -d -p 9296:9296 -e EUREKA_SERVER_ADDRESS=http://host.docker.internal:8761/eureka --name configserver 102e2067e7fd
