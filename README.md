@@ -39,3 +39,11 @@
 4. We can define multiple tags while building the image
    ```shell
     docker build -t ismail26/configserver:0.0.1 -t ismail26/configserver:latest .
+
+5. Pushing docker images
+   ```shell
+   docket push docker push [OPTIONS] NAME[:TAG]
+
+6. Runnig with multiple environment variables
+   ```shell
+   docker run -d -p 9090:9090 -e CONFIG_SERVER_URL=host.docker.internal -e EUREKA_SERVER_ADDRESS=http://host.docker.internal:8761/eureka --name cloudgateway 077c4aed4b80
